@@ -1,0 +1,560 @@
+<html>
+    <head>
+        <title>
+            Time Table
+        </title>
+    </head>
+    <body>
+        <center>
+        <h1>
+            Time Table
+        </h1>
+        <table border="1" width="50%" cellpadding="1" cellspacing="1">
+            <tr>            <th>
+                Day Order
+            </th>
+            <th> 1</th>
+            <th> 2</th>
+            <th> 3</th>
+            <th> 4</th>
+            <th> 5</th>
+            <th> 6</th>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>Eng</td>
+                <td>Tam</td>
+                <td>maths</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Geography</td>
+            </tr>
+            <tr>
+                <td>II</td>
+                <td colspan="3">Web Programming</td>
+                <td colspan="3">Web Design</td>
+            </tr>
+        </table>
+        </table>
+    </center>
+    </body>
+</html>
+
+-------------------------------------------------------------------
+
+<!-- FILEPATH: Untitled-2 -->
+<!-- BEGIN: be15d9bcejpp -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Linking</title>
+</head>
+<body>
+<h1>External Linking</h1>
+<a href="table.html">Time Table</a><br>
+<a href="https://www.w3schools.com/html/">W3Schools</a><br>
+<h1>Internal Linking</h1>
+<a href="#lesson.1">Lesson 1</a><br>
+<a href="#lesson.2">Lesson 2</a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="lesson.1">Introduction of lesson 1</a>
+<p>HTML internal link is linked within the same webpage</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="lesson.2">Introduction of lesson 2</a>
+<p>HTML stands for hyper text markup language</p>
+</body>
+</html>
+<!-- END: be15d9bcejpp -->
+<html>
+
+-------------------------------------------------------------------
+
+
+<html>
+    
+    <head>
+        <title>Canvas Page</title>
+    </head>
+    <body>
+        <center>
+        <canvas id="canvas" width="600" height="400" style="border: 2px solid#3d4d;" >your browser does not support the canvas element.</canvas>
+        <script>
+            var c = document.getElementById("canvas");
+            var ctx = c.getContext("2d");
+            
+            ctx.moveTo(0,0);
+            ctx.lineTo(300,100);
+            ctx.stroke();
+
+            ctx.font="30px Arial";
+            ctx.strokeText("Hello, world!",150,70);
+        
+        </script>
+        </center>
+
+        
+            
+            
+    </body>
+</html>
+
+-------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our College</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#student-life">Student Life</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Simple College, where education meets innovation. We are committed to providing quality education and fostering a culture of excellence.</p>
+        </section>
+
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <p>Explore our admission process and join a community of learners dedicated to personal and academic growth.</p>
+        </section>
+
+        <section id="academics">
+            <h2>Academics</h2>
+            <p>Discover our diverse range of academic programs designed to prepare students for success in their chosen fields.</p>
+        </section>
+
+        <section id="student-life">
+            <h2>Student Life</h2>
+            <p>Experience vibrant campus life with a variety of extracurricular activities, clubs, and events.</p>
+        </section>
+
+        <section id="events">
+            <h2>Events</h2>
+            <p>Stay updated on upcoming events, workshops, and seminars happening on campus.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Contact our admissions office for assistance or visit us on campus.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+-------------------------------------------------------------------
+
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Book Details using Bootstrap</h1>
+    <br><br>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Sno</th>
+                <th scope="col">Acc.No</th>
+                <th scope="col">Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Copies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="success">
+                <th scope="row">1</th>
+                <td>121</td>
+                <td>Java the Hand Book</td>
+                <td>Herbert Schielt</td>
+                <td>5</td>
+            </tr>
+            <tr class="danger">
+                <th scope="row">2</th>
+                <td>122</td>
+                <td>AI</td>
+                <td>Janaki Raman</td>
+                <td>7</td>
+            </tr>
+            <tr class="info">
+                <th scope="row">3</th>
+                <td>123</td>
+                <td>Computer Networks</td>
+                <td>Tanen Baum</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+-------------------------------------------------------------------
+
+<html>
+<head>
+</head>
+<body>
+<h1> DNA to Reverse compliment of DNA </h1>
+<script>
+s=prompt(" enter DNA sequence (AGCT) ","");
+o=s.split();
+document.write(" The given sequence: "+ s +"<br>");
+for(i=0;i<s.length;i++)o[i]=s.charAt(i).replace(/[ACGTacgt]/g,function(c)
+{return {'A':'T','C':'G','G':'C','T':'A','a':'t','c':'g','g':'c','t':'a'}[c];});
+document.write(" <br> The reverse compliment of DNA : " +
+  o.reverse().join(''));
+</script>
+</body>
+</html>
+
+-------------------------------------------------------------------
+
+<html>
+<head>
+</head>
+<body>
+<h1> DNA to RNA Conversion </h1>
+<script>
+s=prompt(" enter DNA sequence (AGCT) ","");
+o=s.split();
+document.write(" The given sequence: "+ s +"<br>");
+for(i=0;i<s.length;i++)o[i]=s.charAt(i).replace(/[ACGTacgt]/g,function(c)
+{return {'A':'T','C':'G','G':'C','T':'A','a':'t','c':'g','g':'c','t':'a'}[c];});
+document.write(" <br> DNA to RNA Conversion : " + o.join(''));
+</script>
+</body>
+</html>
+-------------------------------------------------------------------
+
+<html>
+<body>
+Enter Your name:
+<input type="text" onfocus="myfunc(this)" onblur="myfunc1(this)">
+
+<p>Press and hold down a key inside the text field to set a red background color. Release the key to set a green background color.</p>
+<input type="text" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+<script>
+function myfunc(x)
+{
+x.style.background="blue";
+}
+function myfunc1(x)
+{
+x.style.background="brown";
+}
+function keydownFunction() {
+document.getElementById("demo").style.backgroundColor = "orange";
+}
+function keyupFunction() {
+document.getElementById("demo").style.backgroundColor = "pink";
+}
+</script>
+</body>
+</html>
+
+-------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .login-container input[type="submit"] {
+      width: 100%;
+      background-color: #4caf50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .login-container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Login Form</h2>
+  <form action="login_page" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <input type="submit" value="Login">
+  </form>
+</div>
+
+</body>
+</html>
+
+<?php
+// Database connection parameters
+$servername = "localhost"; // Change this to your MySQL server address
+$username = "root"; // Change this to your MySQL username
+$password = ""; // Change this to your MySQL password
+$database = "login_page"; // Change this to your MySQL database name
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Check if form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get username and password from form
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    // Perform SQL query to check if the provided username and password exist in the database
+    $sql = "SELECT * FROM user WHERE username='$username' AND password='$password'";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // User authenticated, redirect to success page or perform other actions
+        echo "Login successful!";
+    } else {
+        // Invalid username or password
+        echo "Invalid username or password!";
+    }
+}
+
+// Close connection
+$conn->close();
+?>
+
+-------------------------------------------------------------------
+
+<html>
+<head>
+<script language="javascript">
+  
+function validate(){  
+    var name=document.frm1.nam1.value; 
+    var rno= document.frm1.regno.value;
+    var mobile=document.frm1.mp.value;  
+      
+    if (name==null || name=="")  
+      alert("Name can't be blank");  
+     
+     if (rno==null || rno=="")  
+      alert("regno can't be blank");  
+       
+     if(mobile.length!=10)  
+      alert("mobile number must be 10 digits  long."); 
+ 
+      if (/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/.test(frm1.em.value))
+  {
+    return (true);
+  }
+    alert("You have entered an invalid email address!");
+   }  
+</script>  
+ <title>Page Title</title>
+</head>
+<body bgcolor="cyan">
+<h1>Student Registration Form Validation</h1>
+<form name="frm1" method="post" action="Camile.php">
+Regno:<input type =text name="regno" placeholder="enter your Regno ">
+<br>
+<br>
+Enter your name:
+<input type= text name="nam1" placeholder="enter your name">
+<br>
+<br>
+Mobile number: &nbsp;
+<input type= text name="mp">
+<br>
+<br>
+Email: <input type =text name="em">
+<br><br>
+
+<input type=button value="click" onclick="validate()">
+ <input type="submit" value="Click to  Insert into table ">
+</form>
+</body>
+</html>
+
+
+<?php
+        $dbhost='localhost';
+        $dbuser='root';
+        $dbpass='';
+      $dbname='Hope';
+
+$conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+else
+echo "Connected successfully now";
+
+$r=$_REQUEST['regno'];
+$n=$_REQUEST['nam1'];
+$m=$_REQUEST['mp'];
+$e=$_REQUEST['em'];
+
+$sql = "insert into student values ($r,'$n',$m,'$e')";
+
+if ($conn->query($sql) === TRUE) {
+  echo "<br> New record created successfully";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
+
+-------------------------------------------------------------------
