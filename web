@@ -106,33 +106,54 @@
 
 -------------------------------------------------------------------
 
-
+<!DOCTYPE html>
 <html>
-    
-    <head>
-        <title>Canvas Page</title>
-    </head>
-    <body>
-        <center>
-        <canvas id="canvas" width="600" height="400" style="border: 2px solid#3d4d;" >your browser does not support the canvas element.</canvas>
-        <script>
-            var c = document.getElementById("canvas");
-            var ctx = c.getContext("2d");
-            
-            ctx.moveTo(0,0);
-            ctx.lineTo(300,100);
-            ctx.stroke();
+<body>
+<canvas id ="can1" width="1800" height="900" style="border:9px solid green;">
+your browser does not support the HTML5 canvas tag.</canvas>
 
-            ctx.font="30px Arial";
-            ctx.strokeText("Hello, world!",150,70);
-        
-        </script>
-        </center>
 
-        
-            
-            
-    </body>
+
+<script>
+var c = document.getElementById("can1");
+var ctx= c.getContext('2d');
+
+ctx.fillStyle="rgb(200,0,0)";
+ctx.fillRect(100,200,100,100);
+ctx.stroke();
+
+ctx.fillStyle="rgb(0,0,200)";
+ctx.fillRect(150,250,100,100);
+ctx.clearRect(170,270,70,70);
+
+ctx.beginPath();
+ctx.moveTo(300,300);
+ctx.lineTo(300,150);
+ctx.stroke();
+
+ctx.font = "50px BOLD";
+ctx.fillText("Canvas WEB", 700, 200);
+
+ctx.beginPath();
+ctx.arc(400, 300, 60, 0, 2*Math.PI);
+ctx.shadowBlur=10;
+ctx.shadowColor="yellow";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(400,315,30,0,Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(375, 290, 5, 0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(425, 290, 5, 0,2*Math.PI);
+ctx.stroke();
+
+</script>
+</body>
 </html>
 
 -------------------------------------------------------------------
